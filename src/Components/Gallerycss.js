@@ -2,7 +2,7 @@ const galleryCss={
     "galleryHeading": {
       "width": "220px",
       "height": "85px",
-      "fontFamily": "Playfair Display",
+      "fontFamily": "MS UI Gothic",
       "fontStyle": "normal",
       "fontWeight": "bold",
       "fontSize": "64px",
@@ -11,24 +11,24 @@ const galleryCss={
       "marginTop": "60px"
     },
     "galleryContainer": {
-      "width": "1516px",
+      "width": "90%",
       "height": "857px",
       "display": "inline-block",
       "background": "white",
-      marginTop:1,
+    
     },
     "galleryImage": {
       "display": "inline-flex",
-      "width": "215.82px",
-      "height": "184.1px",
-      "margin": "40px"
+      "width": "20%",
+      "height": "250PX",
+      "margin": "10px"
     },
     "galleryImage1": {
-      "width": "215.82px",
-      "height": "184.1px"
+      "width": "100%",
+      "height": "100%"
     },
     "allImages": {
-      "width": "1212px",
+      "width": "100%",
       "height": "550px",
       "display": "inline-block",
       "overflowY": "scroll",

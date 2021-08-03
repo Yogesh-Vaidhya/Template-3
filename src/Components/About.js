@@ -13,13 +13,11 @@ function About(props){
     return (
         <>
         <div className={classes.container}>
-        <div >
-            <img className={classes.col_1_img} src={props.image} alt={props.alt}></img>
-        </div>
         
-        <div className={classes.col_2}>
+        
+        <div className={classes.col}>
                  
-            <div className={classes.AboutLabel}>{props.label} <hr className={classes.underline} /></div>
+            <div className={classes.AboutLabel}>{props.label} </div>
             
             <br/>
             <p>{props.description}</p>

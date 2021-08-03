@@ -1,5 +1,6 @@
 import './App.css';
 import ProductDetails from "./Components/ProductDetails.js";
+import ServiceDetails from "./Components/ServiceDetails.js";
 import res from "./Components/resource.js";
 import Header from "./Components/Header.js";
 import About from "./Components/About.js";
@@ -16,11 +17,12 @@ function App() {
       <div className="App">
 
         <Home />
-        {/* <About description={res.aboutUs.shortDescription} label={res.aboutUs.label} image={res.aboutUs['team_member / owner'][0].img.src} alt={res.aboutUs['team_member / owner'][0].img.alt} /> */}
+        {<About description={res.aboutUs.shortDescription} label={res.aboutUs.label} image={res.aboutUs['team_member / owner'][0].img.src} alt={res.aboutUs['team_member / owner'][0].img.alt} /> }
+        <ServiceDetails description={res.productDetails.description} products={res.productDetails.product} />
         <ProductDetails description={res.productDetails.description} products={res.productDetails.product} />
         <Gallery gallery={res.gallery} />
         {/* <Newsletter /> */}
-        <ContactUs />
+        {/* <ContactUs /> */}
       </div>
       <Footer />
     </>

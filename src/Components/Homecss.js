@@ -16,15 +16,15 @@ const homestyles = {
     },
 
     productimg: {
-        width: '1516px',
-        height: '517px',    
+        width: '100%',
+        height: '100%',    
         background:  "#C4C4C4",
     },
 
     mainContainer:{
         marginTop : '74px',
-        width: '1516px',
-        height: '670px',
+        width: '100%',
+        height: '800px',
         backgroundImage: "url('https://s3-alpha-sig.figma.com/img/1fcd/147b/9ad813d5b3a44d3a31b24636e350e2bb?Expires=1628467200&Signature=DBa76S8toCnlJKWoel0uLCrDeBldeoUokaipIbzpeuR998WD-oVKZvNdl6VnaGKaixpOVpK4-ldSoX1KMCoIdgYs0HwAdZfME9Y80J73aihxhBSb~ohKP17OTXyUcrbViYK8CGzSt5Y0obiCCTKJpTxl~pAWACCzyBgQ~YqwEw9KyChPYS2HxvywYHMhkgFWEyfoJPP511nfjLc6TxOnIdpeTMx~snN5nTHmQiPp2zW09pn-VPaG6KrFdovEIqJKXCoj0F2iTIECybowtgjHA5CgpMWIKE6lzqQ4QmV2ASxBEe~c-Kr2WlBpQH3OevE8RGpcrNXLmlN94aRTnfV-rQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "100% 100%",

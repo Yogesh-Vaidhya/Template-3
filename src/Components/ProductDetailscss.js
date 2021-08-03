@@ -10,16 +10,17 @@ const productDStyles = {
     "marginTop": "0px",
     "backgroundColor": "white",
     "margin": "auto",
-    "color": "Black"
+    "color": "#121212"
   },
   "heading":
   {
       "fontFamily": "Arial",
       "fontStyle": "normal",
       "fontWeight": "bold",
+      "color": "#121212",
       "fontSize": "35px",
       "lineHeight": "40px",
-      
+      textAlign:"left",
     },
     "pdtDes":
   {
@@ -27,7 +28,7 @@ const productDStyles = {
           "fontFamily": "Raleway",
           "fontStyle": "normal",
           "fontWeight": "normal",
-          "fontSize": "16px",
+          "fontSize": "20px",
           "lineHeight": "24px",
           textAlign:"justify",
           "marginTop": "15px", 
@@ -36,11 +37,11 @@ const productDStyles = {
     },
   "pdtimage": {
     "width": "140px",
-    "height": "140px"
+    "height": "65%"
   },
 
   "productDetailsContainer": {
-    marginTop: "50px",
+    marginTop: "25px",
     width:"100%",
     backgroundColor: "white",
     justifyContent:"center",
@@ -50,8 +51,8 @@ const productDStyles = {
 
   "PdtHeading": {
       margin:"auto",
-    "marginTop": "50px",
-    "fontFamily": "Raleway",
+    "marginTop": "0px",
+    "fontFamily": "MS UI Gothic",
     "color": "black",
     "fontSize": "64px",
     "fontWeight": "500",
