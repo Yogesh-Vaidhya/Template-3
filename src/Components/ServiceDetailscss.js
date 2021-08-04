@@ -62,7 +62,8 @@ const productDStyles = {
       "color": "black",
       "fontSize": "64px",
       "fontWeight": "700",
-      "display": "inline-block"
+      "display": "block",
+      "textAlign":"center",
     },
     "productDetailsContainer": {
       "width": "100%",

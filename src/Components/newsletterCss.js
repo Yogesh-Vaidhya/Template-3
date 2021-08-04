@@ -1,77 +1,73 @@
 const styles = {
+  divContainer: {
+    marginTop:"40px",
+      height:302,
+    background: "rgba(186, 197, 237, 0.47)",
+  },
+  mainHead: {
+   
+    margin:"auto",
+    paddingTop:"44px",
+    fontFamily: "Raleway",
+    fontStyle: "normal",
+    fontWeight: "bold",
+    fontSize: "44px",
+    lineHeight: "48px",
+    // display: "flex",
+    // alignItems: "center",
+    "textAlign":"center",
+    color: "#2542AB",
+  },
+
+  text: {
+    backgroundColor: "white",
+    width: "90%",
+    
+  },
+
   gridContainer: {
-    flexGrow: 1,
-     width: 1516,
-    background: "rgba(42, 38, 38, 1)",
-    // width: 1463,
-    marginTop:1,
-     display: "inline-flex",
+    "textAlign":"center",
+      paddingLeft:"6%",
+    marginTop: 56,
+    
+  
   },
   gridLeft: {
-  
-    paddingLeft: 132,
-    paddingTop: "120px",
+
+    // paddingTop: 56,
+    display: "inline-block",
+    // paddingLeft: 210,
+    flexBasis:"None",
+  },
+
+  gridMid: {
+    // paddingLeft: 50,
+    // paddingTop: 56,
+    flexBasis:"None",
   },
 
   gridRight: {
-    
-    paddingTop: 134,
+
+     paddingTop: 6,
+    display: "inline-block",
+    flexBasis:"None",
   },
 
-  headings: {
-    fontFamily: "Playfair Display, serif",
-    fontStyle: "normal",
-    fontWeight: "bold",
-    fontSize: 64,
-    lineHeight: "85px",
-    color: "#FFFFFF",
-    textAlign:"left",
-  },
-  content: {
-    fontFamily: "Open Sans, serif",
-    fontStyle: "normal",
-    fontWeight: "bold",
-    fontSize: 24,
-    lineHeight: "33px",
-    color: "#FFFFFF",
-    width: 500,
-    paddingBottom: 174,
-    paddingRight: "48.21",
-    textAlign:"left",
-  },
-  inputName: {
-    fontFamily: "Poppins",
-    fontSize: "24px",
-    fontStyle: "normal",
-    fontWeight: "bold",
-    lineHeight: "36px",
-    letterSpacing: "0em",
-    width: 645.79,
-    paddingLeft: 21,
-    border: "None",
-    borderRadius: 9,
-    height: 56,
-    paddingTop: 0,
-    marginTop: 0,
-  },
   button: {
-    height: 69,
-    width: 294,
-    fontFamily: "Poppins",
+    height: 56,
+    width: 145,
+    fontFamily: "Raleway",
     fontStyle: "normal",
-    fontWeight: "bold",
+    fontWeight: "500",
     fontSize: "24px",
     color: "#FFFFFF",
-    marginLeft: 370,
-    marginTop: 39,
+    marginLeft: 42,
+    marginTop: 8,
+    display: "flex",
+    alignItems: "center",
     boxBorder: "None",
-    boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset",
-    background: "#40BA4C",
-    borderRadius: 12,
-    "&:hover": {
-      backgroundColor: "rgba(64, 186, 76, 1)",
-      boxShadow: "none",
-    },
+    background: "#2542AB",
+    textTransform:"Capitalize"
   },
 };
 

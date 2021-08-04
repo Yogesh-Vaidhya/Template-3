@@ -12,7 +12,7 @@ function ProductDetails(props){
     const classes=useStyles();
  
    return (
-    <div className={classes.productDetailsContainer}>
+    <div className={classes.productDetailsContainer} id={"abc"}>
         <div className={classes.PdtHeading}>
             Our Programs/Events
         </div>

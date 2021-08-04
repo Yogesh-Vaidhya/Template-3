@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import Template3 from './Template3';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Template3 />
   </React.StrictMode>,
   document.getElementById('root')
 );

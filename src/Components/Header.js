@@ -4,6 +4,9 @@ import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles } from '@material-ui/core/styles';
 import styles from './Headercss.js';
 import res from './resource.js';
+import {Link} from 'react-router-dom';    
+
+
 
 const useStyles = makeStyles(styles);
 
@@ -21,13 +24,19 @@ const Header = () => {
                         <img src={res["nav"]["logo"]["src"]} alt={res["nav"]["logo"]["alt"]} className={classes.logo} />
                     </div>
                     <div className={classes.maincontent}>
+                      
                         {arr.map((item, index) => {
                             return (
+                                <Link to="/"  >
                                 <span className={classes.content}>
+                                   
                                     {item["label"]}
+                                    
                                 </span>
+                                </Link>
                             )
                         })}
+                      
                     </div>
                 </Toolbar>
             </AppBar>

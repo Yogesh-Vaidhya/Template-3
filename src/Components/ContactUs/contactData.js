@@ -13,9 +13,8 @@ const ContactData = () => {
   return (
     <div className={classes.containerDiv}>
       <Typography className={classes.head}>Contact Us</Typography>
-      <hr className={classes.smallBorder} />
       <Typography className={classes.subHead}>
-        Lorem ipsum dolor sit amet, conseur adicing elit. Mauris venenatis
+        Lorem ipsum dolor sit amet, conseur adicing elit. Mauris venenatis conseur adicing elit.
       </Typography>
 
       <div className={classes.contactType}>

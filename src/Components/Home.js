@@ -13,10 +13,10 @@ const useStyles = makeStyles(styles);
 const Home = () => {
     const classes = useStyles();
 
-    
+    var home="Home";
     return (
         <>  
-            <div className={classes.mainContainer}>
+            <div id={"#abc"} className={classes.mainContainer}>
                 <div className={classes.textContainer}>
                     <Typography className={classes.mainheading}>
                         {data.home.tagline}

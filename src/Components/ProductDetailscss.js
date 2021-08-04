@@ -41,7 +41,7 @@ const productDStyles = {
   },
 
   "productDetailsContainer": {
-    marginTop: "25px",
+    paddingTop: "100px",
     width:"100%",
     backgroundColor: "white",
     justifyContent:"center",
@@ -55,7 +55,7 @@ const productDStyles = {
     "fontFamily": "MS UI Gothic",
     "color": "black",
     "fontSize": "64px",
-    "fontWeight": "500",
+    "fontWeight": "700",
     "display":"block",
     textAlign:"center",
   },
@@ -67,7 +67,7 @@ const productDStyles = {
   },
   "desContainer": {
     "margin": "auto",
-    "width": "1345px",
+    "width": "80% ",
     "textAlign": "left",
     "fontFamily": "'Open Sans', sans-serif",
     "color": "white",

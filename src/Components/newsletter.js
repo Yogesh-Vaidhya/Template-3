@@ -4,34 +4,63 @@ import styles from "./newsletterCss.js";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import TextField from "@material-ui/core/TextField";
 
 const useStyles = makeStyles(styles);
 
-const Newsletter = () => {
+const Newsletter2 = () => {
   const classes = useStyles();
   return (
-    <Grid
-    container
-      className={classes.gridContainer}
-      justifyContent="center"
-      spacing={0}
-    >
-      <Grid item xs={6} className={classes.gridLeft}>
-        <Typography className={classes.headings}>Newsletter</Typography>
-        <Typography className={classes.content}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          eleifend felis ex, eget placerat lacus eleifend sit amet. mauris
-          lectus.
-        </Typography>
+    <div className={classes.divContainer}>
+      <Typography className={classes.mainHead}>
+        Stay updated with the latest news!
+      </Typography>
+      <Grid
+        container
+        className={classes.gridContainer}
+        justifyContent="center"
+        spacing={0}
+      >
+        <Grid item xs={3} className={classes.gridLeft}>
+        <TextField
+            id="filled-full-width"
+            label="Name"
+            placeholder="Simran"
+            height="156"
+            margin="normal"
+            InputLabelProps={{
+              shrink: true,
+            }}
+            variant="outlined"
+            className={classes.text}
+          />
+        </Grid>
+        <Grid item xs={3} className={classes.gridMid}>
+        <TextField
+            id="filled-full-width"
+            label="Email Address"
+            placeholder="simran@example.com"
+            height="156"
+            margin="normal"
+            InputLabelProps={{
+              shrink: true,
+            }}
+            variant="outlined"
+            className={classes.text}
+          />
+        </Grid>
+        <Grid item xs={3} className={classes.gridRight}>
+          <Button
+            color="primary"
+            variant="contained"
+            className={classes.button}
+          >
+            Subscribe
+          </Button>
+        </Grid>
       </Grid>
-      <Grid item xs={6} className={classes.gridRight}>
-        <input placeholder="Email address" className={classes.inputName} />
-        <Button color="primary" variant="contained" className={classes.button}>
-          Subscribe
-        </Button>
-      </Grid>
-    </Grid>
+    </div>
   );
 };
 
-export default Newsletter;
+export default Newsletter2;
